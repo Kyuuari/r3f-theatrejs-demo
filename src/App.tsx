@@ -8,7 +8,10 @@ function App() {
   return (
     <>
       <Overlay />
-      <Canvas camera={{ position: [3, 3, 3] }}>
+      <Canvas
+        camera={{ position: [3, 3, 3] }}
+        gl={{ preserveDrawingBuffer: true }}
+      >
         <Experience />
       </Canvas>
     </>
