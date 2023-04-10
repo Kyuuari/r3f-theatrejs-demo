@@ -1,6 +1,10 @@
-# r3f-fun-template
+# r3f-theatrejs-demo
 
-Clean Vite based project with pre-installed and configured dependencies to start your projects:
+Exploration of using theatrejs and r3f to create iteractive motion design using a timeline based sequence editor
+
+notes: very promising and will explore further
+
+doc: [Theatre.js](https://www.theatrejs.com)
 
 Dependencies Includes
 
