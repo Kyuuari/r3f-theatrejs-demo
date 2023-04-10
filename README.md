@@ -15,5 +15,5 @@ Dependencies Includes
 This template was ment to quickstart small explorative projects
 
 # Screenshots
-![view](https://cdn.discordapp.com/attachments/801156110752284702/1094283609759817748/Screenshot_2023-04-08_at_11.30.50_AM.png)
+![view](https://cdn.discordapp.com/attachments/1094841504616427520/1094842366780784701/Screen_Recording_2023-04-10_at_12_25_15_AM_AdobeExpress.gif)
 
