@@ -1,0 +1,362 @@
+{
+  "sheetsById": {
+    "Demo Sheet": {
+      "staticOverrides": {
+        "byObject": {
+          "Camera": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 5
+            }
+          },
+          "mesh": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 5.773159728050814e-15
+            },
+            "rotation": {
+              "y": 0
+            }
+          }
+        }
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 3,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "mesh": {
+            "trackData": {
+              "Y7kT4Nhb4Z": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "mesh:[\"position\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "KC1bVxE7IC",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0
+                  },
+                  {
+                    "id": "CXaRO4tc0Y",
+                    "position": 0.5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0
+                  },
+                  {
+                    "id": "vCkTegvjBB",
+                    "position": 1.5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.929133400703847,
+                      0.2190464380928761,
+                      0.6278086992372707,
+                      -0.14650629301258605
+                    ],
+                    "value": 0.4607132926757881
+                  },
+                  {
+                    "id": "T-lzajBr9K",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      1,
+                      0.011284022568045171,
+                      0.5,
+                      0
+                    ],
+                    "value": 0
+                  }
+                ]
+              },
+              "V9qS1KEDfb": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "mesh:[\"position\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "rS2pTqli_6",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0
+                  },
+                  {
+                    "id": "DWCZ2qLAaE",
+                    "position": 0.367,
+                    "connectedRight": true,
+                    "handles": [
+                      0.02774498229043687,
+                      1.0866141732283465,
+                      0.4771415770711731,
+                      0.15400830801661605
+                    ],
+                    "value": 1.7433194866389732
+                  },
+                  {
+                    "id": "yLEYn0hRzL",
+                    "position": 1.533,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "id": "kklfSLI5SN",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0
+                  }
+                ]
+              },
+              "nq4DmZF9lQ": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "mesh:[\"position\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "RVAMLiiitc",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 5.773159728050814e-15
+                  },
+                  {
+                    "id": "x9OVD87ovf",
+                    "position": 0.5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 5.773159728050814e-15
+                  },
+                  {
+                    "id": "-EA8vIWlu8",
+                    "position": 1.533,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "id": "O64Sc5SjuM",
+                    "position": 2.067,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 1.5899212598425194
+                  },
+                  {
+                    "id": "724vyZCTka",
+                    "position": 2.433,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.47917746835495756,
+                      0.5304952613879571
+                    ],
+                    "value": 0.25958707917415713
+                  },
+                  {
+                    "id": "_u4MMj0g7A",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0.8512964225928451
+                  }
+                ]
+              },
+              "3CKbmmFYub": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "mesh:[\"rotation\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "l6qYZscJIg",
+                    "position": 1.533,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 20
+                  },
+                  {
+                    "id": "zRyg-8hNqZ",
+                    "position": 2.5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "id": "v0_bJRHrcM",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0
+                  }
+                ]
+              },
+              "iTHYAevtl5": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "mesh:[\"rotation\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "BzWiyFicAJ",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0
+                  },
+                  {
+                    "id": "OlCb2S2a4w",
+                    "position": 0.5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 20
+                  },
+                  {
+                    "id": "1aNVubVU01",
+                    "position": 1.533,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 240
+                  },
+                  {
+                    "id": "TuxyfZoyFd",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "id": "aaf7k5Iu4I",
+                    "position": 2.5,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "id": "i_9p6XK8mP",
+                    "position": 3,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0
+                  }
+                ]
+              },
+              "3smhSZJD83": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "mesh:[\"rotation\",\"z\"]",
+                "keyframes": []
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"position\",\"x\"]": "Y7kT4Nhb4Z",
+              "[\"position\",\"y\"]": "V9qS1KEDfb",
+              "[\"position\",\"z\"]": "nq4DmZF9lQ",
+              "[\"rotation\",\"x\"]": "3CKbmmFYub",
+              "[\"rotation\",\"y\"]": "iTHYAevtl5",
+              "[\"rotation\",\"z\"]": "3smhSZJD83"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": [
+    "oqQHCzRzvBEksHtl",
+    "9wFiNFrvHlxVvVzW"
+  ]
+}

@@ -15,18 +15,21 @@ import { getProject, val } from "@theatre/core";
 import studio from "@theatre/studio";
 import extension from "@theatre/r3f/dist/extension";
 import { editable as e, SheetProvider, PerspectiveCamera } from "@theatre/r3f";
-import demoProjectState from "../state/state.json";
+import demoProjectState from "../state/state1.json";
 import { useFrame } from "@react-three/fiber";
 
-// studio.initialize();
-// studio.extend(extension);
+studio.initialize();
+studio.extend(extension);
 
 type Props = {};
+// const project = getProject("Demo Project");
 
 // our Theatre.js project sheet, we'll use this later
 const demoSheet = getProject("Demo Project", { state: demoProjectState }).sheet(
   "Demo Sheet"
 );
+
+// const sampleSheet = project.sheet("sampleSheet");
 
 const ScrollContent = () => {
   const scroll = useScroll();
@@ -38,18 +41,16 @@ const ScrollContent = () => {
   console.log(demoSheet.object.length);
   function seek() {
     demoSheet.project.ready.then(() => {
-      //Hard coded 3 because I know sequence should be 3s long
-      demoSheet.sequence.position = 3 * scroll.offset;
-
-      // Ideally if sequence length was unknown and if it gave right length but for now returns emoSheet.sequence.pointer.length = 10?
-      // demoSheet.sequence.position =
-      //   val(demoSheet.sequence.pointer.length) * scroll.offset;
+      // scroll normalized to timeline sequence length
+      demoSheet.sequence.position =
+        val(demoSheet.sequence.pointer.length) * scroll.offset;
     });
   }
 
   useFrame(() => {
     seek();
   });
+
   return (
     <>
       <PerspectiveCamera
@@ -67,11 +68,6 @@ const ScrollContent = () => {
         <boxGeometry args={[1, 1, 1]} />
         <meshStandardMaterial color="orange" />
       </e.mesh>
-      {/* <ScreenSpace>
-        <Html>
-          <button onClick={play}>Start Animation</button>
-        </Html>
-      </ScreenSpace> */}
     </>
   );
 };
@@ -79,7 +75,7 @@ const ScrollContent = () => {
 const Experience = (props: Props) => {
   return (
     <SheetProvider sheet={demoSheet}>
-      <ScrollControls pages={3} damping={0.2} maxSpeed={0.2}>
+      <ScrollControls pages={3} maxSpeed={0.1}>
         <ScrollContent />
       </ScrollControls>
     </SheetProvider>
